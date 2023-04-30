@@ -12,7 +12,7 @@ source $ZSH/oh-my-zsh.sh
 #################### User configuration
 
 export LANG=en_US.UTF-8
-export EDITOR='mvim'
+export EDITOR='nvim'
 
 # User aliases
 alias vi="nvim"
