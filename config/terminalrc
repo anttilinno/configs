@@ -1,5 +1,5 @@
 [Configuration]
-FontName=JetBrains Mono Medium 16
+FontName=Hack Nerd Font Mono Bold 16
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBellUrgent=FALSE
@@ -19,7 +19,7 @@ MiscTabCloseMiddleClick=TRUE
 MiscTabPosition=GTK_POS_TOP
 MiscHighlightUrls=TRUE
 MiscMiddleClickOpensUri=FALSE
-MiscCopyOnSelect=FALSE
+MiscCopyOnSelect=TRUE
 MiscShowRelaunchDialog=TRUE
 MiscRewrapOnResize=TRUE
 MiscUseShiftArrowsToScroll=FALSE
@@ -39,4 +39,5 @@ TabActivityColor=#dc322f
 ShortcutsNoMnemonics=TRUE
 ShortcutsNoHelpkey=TRUE
 MiscRightClickAction=TERMINAL_RIGHT_CLICK_ACTION_CONTEXT_MENU
+Encoding=UTF-8
 

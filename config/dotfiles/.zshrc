@@ -20,9 +20,11 @@ alias peterpecker="sudo reboot"
 alias donthurtme="sudo shutdown now"
 
 # Path modification
-export PATH="${PATH}:/home/antti/.yarn/bin"
+export PATH="${PATH}:/home/antti/.local/bin"
 
 # Starship
 eval "$(starship init zsh)"
 
 source ${HOME}/.local/bin/goto.sh
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
