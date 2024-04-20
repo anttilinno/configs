@@ -1,0 +1,18 @@
+[global_config]
+  focus = mouse
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#fdf6e3"
+    font = JetBrainsMonoNL Nerd Font 14
+    foreground_color = "#657b83"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]

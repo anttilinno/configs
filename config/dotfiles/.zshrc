@@ -1,11 +1,13 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+ZSH_THEME=amuse
+
 COMPLETION_WAITING_DOTS="true"
 
 HIST_STAMPS="dd.mm.yyyy"
 
-plugins=(git docker docker-compose yarn)
+plugins=(git docker docker-compose)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -22,9 +24,4 @@ alias donthurtme="sudo shutdown now"
 # Path modification
 export PATH="${PATH}:/home/antti/.local/bin"
 
-# Starship
-eval "$(starship init zsh)"
-
 source ${HOME}/.local/bin/goto.sh
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
