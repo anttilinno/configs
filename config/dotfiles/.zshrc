@@ -25,3 +25,14 @@ alias donthurtme="sudo shutdown now"
 export PATH="${PATH}:/home/antti/.local/bin"
 
 source ${HOME}/.local/bin/goto.sh
+
+# pyenv
+
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
+
+export BAT_THEME="Solarized (light)"

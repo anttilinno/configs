@@ -4,7 +4,7 @@
 [profiles]
   [[default]]
     background_color = "#fdf6e3"
-    font = JetBrainsMonoNL Nerd Font 14
+    font = JetBrainsMonoNL Nerd Font Propo Semi-Bold 14
     foreground_color = "#657b83"
     use_system_font = False
 [layouts]
