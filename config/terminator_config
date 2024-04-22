@@ -3,11 +3,11 @@
 [keybindings]
 [profiles]
   [[default]]
-    background_color = "#eee8d5"
-    cursor_bg_color = "#002b36"
+    background_color = "#dfdbc3"
+    cursor_bg_color = "#73635a"
     font = JetBrainsMonoNL Nerd Font Propo Semi-Bold 14
-    foreground_color = "#002b36"
-    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    foreground_color = "#3b2322"
+    palette = "#000000:#cc0000:#009600:#d06b00:#0000cc:#cc00cc:#0087cc:#cccccc:#808080:#cc0000:#009600:#d06b00:#0000cc:#cc00cc:#0087cc:#ffffff"
     use_system_font = False
   [[Solarized Light]]
     background_color = "#eee8d5"
@@ -22,6 +22,13 @@
     font = JetBrainsMonoNL Nerd Font Propo Semi-Bold 14
     foreground_color = "#eee8d5"
     palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#586e75:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    use_system_font = False
+  [[Novel]]
+    background_color = "#dfdbc3"
+    cursor_bg_color = "#73635a"
+    font = JetBrainsMonoNL Nerd Font Propo Semi-Bold 14
+    foreground_color = "#3b2322"
+    palette = "#000000:#cc0000:#009600:#d06b00:#0000cc:#cc00cc:#0087cc:#cccccc:#808080:#cc0000:#009600:#d06b00:#0000cc:#cc00cc:#0087cc:#ffffff"
     use_system_font = False
 [layouts]
   [[default]]
