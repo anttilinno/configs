@@ -3,11 +3,25 @@
 [keybindings]
 [profiles]
   [[default]]
-    background_color = "#212121"
-    cursor_bg_color = "#d0d0d0"
+    background_color = "#eee8d5"
+    cursor_bg_color = "#002b36"
     font = JetBrainsMonoNL Nerd Font Propo Semi-Bold 14
-    foreground_color = "#d0d0d0"
-    palette = "#151515:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#d0d0d0:#505050:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#f5f5f5"
+    foreground_color = "#002b36"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    use_system_font = False
+  [[Solarized Light]]
+    background_color = "#eee8d5"
+    cursor_bg_color = "#002b36"
+    font = JetBrainsMonoNL Nerd Font Propo Semi-Bold 14
+    foreground_color = "#002b36"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    use_system_font = False
+  [[Solarized Dark]]
+    background_color = "#002b36"
+    cursor_bg_color = "#eee8d5"
+    font = JetBrainsMonoNL Nerd Font Propo Semi-Bold 14
+    foreground_color = "#eee8d5"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#586e75:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
     use_system_font = False
 [layouts]
   [[default]]
