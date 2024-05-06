@@ -20,6 +20,8 @@ export EDITOR='nvim'
 alias vi="nvim"
 alias peterpecker="sudo reboot"
 alias donthurtme="sudo shutdown now"
+alias ls="exa"
+alias cat="bat"
 
 # Path modification
 export PATH="${PATH}:/home/antti/.local/bin"
@@ -31,6 +33,7 @@ source ${HOME}/.local/bin/goto.sh
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
