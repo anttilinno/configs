@@ -14,5 +14,3 @@ autocmd("BufReadPost", {
     end
   end,
 })
-
-return autocmd
